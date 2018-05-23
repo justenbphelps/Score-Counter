@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Score Counter v1.0</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/JavaScript/Score Counter/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/JavaScript/Score Counter/scorecounter.css">
+</head>
+<body>
+    <div id='scoreCountBody'>
+        <h1>
+            <span id='p1Display'>0</span>
+            to
+            <span id='p2Display'>0</span>
+        </h1>
+
+        <div>
+            <p>Playing to:
+                <span id='limitCount'></span>
+            </p>
+        </div>
+        <!-- buttons -->
+        <label for="#scoreLimit">Number to Win: </label>
+        <input type="number" id='scoreLimit' style="width: 50px">
+        <button id='player1Button' class='btn btn-md btn-success'>Player 1+</button>
+        <button id='player2Button' class='btn btn-md btn-success'>Player 2+</button>
+        <button id='resetButton' class='btn btn-md btn-danger'>Reset</button>
+    </div>
+<script src="/JavaScript/Score Counter/scorecounter.js"></script>
+</body>
+</html>
